@@ -11,7 +11,7 @@ import SwiftUI
 struct HabitoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            OnBoardingView(onBoardingViewModel: OnBoardingViewModel())
         }
     }
 }
